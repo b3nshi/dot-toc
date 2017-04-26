@@ -1,0 +1,53 @@
+.Game {
+  margin: 0 auto;
+  text-align: center;
+  width: 300px;
+}
+
+.Game .Score {
+  border-bottom: 1px solid #ccc;
+  display: flex;
+  line-height: 40px;
+}
+
+.Game .Score div {
+  flex: 1;
+}
+
+.Game .Score .asserts {
+  color: green;
+}
+
+.Game .Score .errors {
+  color: red;
+}
+
+.Game .Board {
+  display: flex;
+  flex-flow: row wrap;
+  margin: 0 auto;
+  position: relative;
+}
+
+.Game .Board .dot {
+  border-radius: 50%;
+  box-sizing: border-box;
+  cursor: pointer;
+  flex: 1;
+  flex-basis: 30px;
+  height: 35px;
+  margin: 10px 30px;
+  width: 30px;
+}
+
+.Game .Board .dot.blue {
+  background-color: blue;
+}
+
+.Game .Board .dot.red {
+  background-color: tomato;
+}
+
+.Game .Instructions {
+  text-align: center;
+}
